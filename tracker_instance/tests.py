@@ -1,5 +1,5 @@
-from tracker_instance.comments.tests import CommentsAPITestCase
-from tracker_instance.tasks.tests import TasksAPITestCase
+from tracker_instance.comment.tests import CommentsAPITestCase
+from tracker_instance.task.tests import TasksAPITestCase
 
 CommentsAPITestCase()
 TasksAPITestCase()

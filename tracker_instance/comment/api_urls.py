@@ -1,6 +1,6 @@
 from django.urls import path
 
-from tracker_instance.comments.api_views import CommentsList
+from tracker_instance.comment.api_views import CommentsList
 
 urlpatterns = [
     path('', CommentsList.as_view(), name='api-comments-list'),

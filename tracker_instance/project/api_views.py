@@ -1,6 +1,6 @@
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 
-from tracker_instance.projects.serializers import ProjectSerializer
+from tracker_instance.project.serializers import ProjectSerializer
 from tracker_instance.models import Project
 
 

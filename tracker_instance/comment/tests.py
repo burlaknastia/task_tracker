@@ -1,6 +1,5 @@
 from django.contrib.auth import get_user_model
 from django.test import TestCase
-from django_comments.models import Comment
 from rest_framework.test import APIClient
 
 from tracker_instance.models import Project, Task
@@ -26,6 +25,6 @@ class CommentsAPITestCase(TestCase):
                           {"comment": "task comment test",
                            "user": self.user.id,
                            "content_type": "task",
-                           "object_pk": task_id }
+                           "object_pk": task_id}
                           , format='json')
         self.assertEqual(res.status_code, 201)

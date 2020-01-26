@@ -5,9 +5,9 @@ from rest_framework.generics import ListCreateAPIView, \
 from rest_framework.response import Response
 
 from django_comments.models import Comment
-from tracker_instance.comments.serializers import CommentsSerializer
+from tracker_instance.comment.serializers import CommentsSerializer
 from tracker_instance.models import Task, User
-from tracker_instance.tasks.serializers import TaskSerializer, TaskDetailSerializer
+from tracker_instance.task.serializers import TaskSerializer, TaskDetailSerializer
 
 
 class TasksList(ListCreateAPIView):

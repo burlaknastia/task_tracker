@@ -1,10 +1,10 @@
-from django_comments.models import Comment
 from django.contrib.sites.shortcuts import get_current_site
+from django_comments.models import Comment
 from rest_framework import status
 from rest_framework.generics import ListCreateAPIView
 from rest_framework.response import Response
 
-from tracker_instance.comments.serializers import CommentsSerializer
+from tracker_instance.comment.serializers import CommentsSerializer
 
 
 class CommentsList(ListCreateAPIView):

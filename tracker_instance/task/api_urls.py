@@ -1,6 +1,6 @@
 from django.urls import path
 
-from tracker_instance.tasks.api_views import TasksList, TaskDetail, \
+from tracker_instance.task.api_views import TasksList, TaskDetail, \
     TaskCommentsList
 
 urlpatterns = [

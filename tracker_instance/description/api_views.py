@@ -1,6 +1,6 @@
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 
-from tracker_instance.descriptions.serializers import DescriptionSerializer
+from tracker_instance.description.serializers import DescriptionSerializer
 from tracker_instance.models import Description
 
 

@@ -2,7 +2,7 @@ from django.db.models import Count
 from rest_framework.fields import IntegerField
 from rest_framework.serializers import ModelSerializer, SerializerMethodField
 
-from tracker_instance.descriptions.serializers import DescriptionSerializer
+from tracker_instance.description.serializers import DescriptionSerializer
 from tracker_instance.models import Task, Description
 
 
